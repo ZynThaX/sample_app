@@ -61,5 +61,8 @@ module SampleApp
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # Windows cmd.exe doesn't support ANSI colors, so disable them
+    config.colorize_logging = false
   end
 end
